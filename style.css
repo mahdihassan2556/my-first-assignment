@@ -1,7 +1,14 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
 nav div{
 display: flex;
 justify-content: space-between;
 padding: 16px 120px;
+align-items: center;
 }
 nav ul{
     list-style: none;
@@ -12,4 +19,125 @@ nav ul{
 nav button{
     width: 146px;
     height: 44px;
+}
+#banner{
+    width: 1600px;
+    width: 100%;
+    height: 674px;
+    background-image: url(assets/hero-bg.png);
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#design{
+    padding-top: 110px;
+    padding-bottom: 16px;
+}
+.banner-content h1{
+    font-size: 75px;
+    font-weight: 900;
+   
+}
+.banner-content p{
+    font-size: 20px;
+    line-height: 24px;
+}
+.banner-content button{
+    padding: 12px 16px;
+    margin-top: 34px;
+    background-color:#30B868;
+}
+.notes{
+    width: 1000px;
+    height: 152px;
+    margin: 0 auto;
+}
+.notes-heading{
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 14px;
+padding-top: 60px;
+
+}
+.notes-heading h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.notes-heading p{
+    font-size: 16px;
+    line-height: 20px;
+}
+.notes-info{
+display: flex;
+}
+
+
+.info-card{
+    text-align: center;
+    margin-right: 16px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px  #c0c1c3;
+    margin-top: 45px;
+    padding: 24px 24px;
+    width: 350px;
+    height: 200px;
+   
+}
+.info-card h3{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.info-card p{
+    font-size: 14px;
+    font-weight: 100;
+    color:#627382;
+    line-height: 20px;
+    width: 200px;
+    height: 30px;
+}
+.info-card img{
+    background-color: #f95555;
+    width: 40px;
+    height: 40px;
+    border-radius: 35px;
+    padding: 10px;
+    margin: 16px 16px;
+}
+#brain{
+    margin: 400px 120px 120px 120px;
+    
+}
+.brain-structure{
+    display: flex;
+    gap: 60px;
+}
+#line{
+    margin-top: 100px;
+    color: #30B868;
+    font-size: 16px;
+}
+.brain-content h1{
+    width: 500px;
+    height: 120px;
+    margin-top: 16px;
+    font-size: 48px;
+}
+ #line2{
+    width: 400px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    font-weight: 50;
+    font-size: 16px;
+    color: #627382;
+}
+
+.list-item{
+    display: flex;
+    gap: 14px;
+    margin-bottom: 10px;
 }
